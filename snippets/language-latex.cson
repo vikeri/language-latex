@@ -67,6 +67,17 @@
   'Math Mode - $ … $':
     'prefix': 'math'
     'body': '$$1$'
+    
+# Text format
+  'Bold text':
+    'prefix': 'bold'
+    'body': '\\\\textbf{$1}'
+  'Italic text':
+    'prefix': 'it'
+    'body': '\\\\textit{$1}'
+  'Underlined text':
+    'prefix': 'under'
+    'body': '\\\\underlined{$1}'
 
 # Others
   '\\\\begin{}…\\\\end{}':
